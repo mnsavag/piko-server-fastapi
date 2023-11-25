@@ -1,5 +1,7 @@
 # piko-server-fastapi
 
+Python, Fastapi, PostgerSQL, SQLAlchemy
+
 Application for creating surveys in the form of contests.
 
 You can access it here http://31.129.106.57:3001/
@@ -34,14 +36,14 @@ At the moment the editor preview does not correspond to the real preview.
 
 ### Installation
 
+Install dependencies
+$ pip install -r requirements.txt
 
-### Running the app
-
-Set up the database in file .env
+Use PostgerSQL
+Set up the env variables in file **.env**
 
 ```bash
 # set up database
-$ alembic revision --autogenerate -m "Create tables"
 $ alembic upgrade head
 ```
 
@@ -64,6 +66,8 @@ $ VALUES ('games');
 $ INSERT INTO category(name)
 $ VALUES ('other');
 ```
+
+### Running the app
 
 ```bash
 # run app
