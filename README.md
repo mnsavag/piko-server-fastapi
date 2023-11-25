@@ -54,7 +54,7 @@ Install dependencies
 ```bash
 $ pip install -r requirements.txt
 ```
-Use PostgerSQL
+Use PostgreSQL
 
 Set up the env variables in file **.env**
 
