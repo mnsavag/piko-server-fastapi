@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends, status
-from pydantic import type_adapter
 
 from src.schemas.user_schema import UserCreate, UserOut
 from src.services.user_service import UserService

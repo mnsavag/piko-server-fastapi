@@ -1,9 +1,5 @@
 from sqlalchemy import Column, ForeignKey, Table
 from sqlalchemy.orm import DeclarativeBase
-import json
-
-
-from sqlalchemy import Column
 
 
 class Base(DeclarativeBase):

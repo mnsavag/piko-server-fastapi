@@ -1,8 +1,8 @@
-from fastapi import HTTPException
+from typing import List
+
 from src.models.category import Category
 from src.repository.repository_base import IRepositoryBase
 from src.repository.category_repo import CategoryRepository
-from typing import List
 
 
 class CategoryService:

@@ -1,4 +1,4 @@
-from sqlalchemy.orm import Mapped, mapped_column, relationship, validates
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy import String, DateTime, JSON, ForeignKey
 from datetime import datetime
 from typing import TYPE_CHECKING, List

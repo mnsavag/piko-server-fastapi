@@ -1,4 +1,3 @@
-import json
 from typing import List
 from sqlalchemy.sql import select
 from src.repository.repository_base import SQLAlchemyRepository

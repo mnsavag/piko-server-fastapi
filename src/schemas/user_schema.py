@@ -1,6 +1,5 @@
-from pydantic import BaseModel, ConfigDict, Field, EmailStr
+from pydantic import BaseModel, Field, EmailStr
 from datetime import datetime
-from src.utils.alias_generators import to_snake
 
 
 class UserCreate(BaseModel):

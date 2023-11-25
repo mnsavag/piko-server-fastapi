@@ -1,8 +1,8 @@
-from datetime import datetime
 from pydantic import BaseModel, Field, field_validator
-from typing import Annotated, List
-from src.utils.alias_generators import to_camel, to_snake
-from fastapi import File, UploadFile
+from typing import List
+from datetime import datetime
+
+from src.utils.alias_generators import to_camel
 
 
 class OptionCreate(BaseModel):

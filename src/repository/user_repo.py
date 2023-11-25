@@ -3,7 +3,7 @@ from src.repository.repository_base import SQLAlchemyRepository
 
 from src.models.user import User
 from src.db.db import db
-from src.schemas.user_schema import UserCreate, UserOut
+from src.schemas.user_schema import UserCreate
 
 
 class UserRepository(SQLAlchemyRepository):

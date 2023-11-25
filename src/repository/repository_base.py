@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 from typing import List, TypeVar
 from src.db.db import db
 from sqlalchemy.sql import select

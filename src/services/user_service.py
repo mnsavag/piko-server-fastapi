@@ -1,4 +1,3 @@
-from fastapi import HTTPException
 from src.models.user import User
 from src.repository.repository_base import IRepositoryBase
 from src.repository.user_repo import UserRepository
