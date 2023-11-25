@@ -33,7 +33,15 @@ At the moment the editor preview does not correspond to the real preview.
 ​
 ### Swagger API
 
-#### /docs
+#### URL address
+
+```bash
+$ /docs
+```
+
+#### Preview
+
+![alt text](https://github.com/mnsavag/piko-server-fastapi/blob/master/api-preview.png?raw=true)
 
 ### Database view
 
