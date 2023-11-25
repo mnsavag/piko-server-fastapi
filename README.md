@@ -42,6 +42,7 @@ At the moment the editor preview does not correspond to the real preview.
 ### Installation
 
 Install dependencies
+
 $ pip install -r requirements.txt
 
 Use PostgerSQL
