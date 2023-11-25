@@ -1,3 +1,4 @@
+from datetime import datetime
 from pydantic import BaseModel, Field, field_validator
 from typing import Annotated, List
 from src.utils.alias_generators import to_camel, to_snake
@@ -16,6 +17,7 @@ class Option(BaseModel):
 class OptionWithWinRate(Option):
     win_rate: float
 
+
 class ContestCreate(BaseModel):
     name: str = Field(min_length=1, max_length=25)
     description: str = Field(min_length=1, max_length=250)
@@ -31,3 +33,16 @@ class ContestCreate(BaseModel):
         if len(value) not in [8, 16, 32, 64]:
             raise ValueError('Available options len [8, 16, 32, 64]')
         return value
+
+class ContestOut(BaseModel):
+    id: int
+    name: str
+    description: str
+    preview_first: str
+    preview_second: str
+    amount_options: int
+    can_be_published: bool
+    user_id: int | None = None
+    options: List[Option]
+    count_passed: int
+    created_at: datetime
