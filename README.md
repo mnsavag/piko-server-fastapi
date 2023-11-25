@@ -1,13 +1,18 @@
 # piko-server-fastapi
 
-Python, Fastapi, PostgerSQL, SQLAlchemy
-
 Application for creating surveys in the form of contests.
 
 You can access it here http://31.129.106.57:3001/
 
 Also You can see the client implementation here https://github.com/mnsavag/piko-client-react/
 
+### Main stack
+
+- Python
+- Fastapi
+- PostgreSQL
+- SQLAlchemy
+  
 ### Interacting with app (client)
 
 #### Home Page
