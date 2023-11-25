@@ -6,6 +6,13 @@ You can access it here http://31.129.106.57:3001/
 
 Also You can see the client implementation here https://github.com/mnsavag/piko-client-react/
 
+### Main stack
+
+- Python
+- Fastapi
+- PostgreSQL
+- SQLAlchemy
+  
 ### Interacting with app (client)
 
 #### Home Page
@@ -34,14 +41,17 @@ At the moment the editor preview does not correspond to the real preview.
 
 ### Installation
 
+Install dependencies
 
-### Running the app
+```bash
+$ pip install -r requirements.txt
+```
+Use PostgerSQL
 
-Set up the database in file .env
+Set up the env variables in file **.env**
 
 ```bash
 # set up database
-$ alembic revision --autogenerate -m "Create tables"
 $ alembic upgrade head
 ```
 
@@ -64,6 +74,8 @@ $ VALUES ('games');
 $ INSERT INTO category(name)
 $ VALUES ('other');
 ```
+
+### Running the app
 
 ```bash
 # run app
