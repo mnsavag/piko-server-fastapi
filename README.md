@@ -43,9 +43,11 @@ At the moment the editor preview does not correspond to the real preview.
 
 Install dependencies
 
+```bash
 $ pip install -r requirements.txt
-
+```
 Use PostgerSQL
+
 Set up the env variables in file **.env**
 
 ```bash
