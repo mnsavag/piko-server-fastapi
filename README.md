@@ -49,17 +49,21 @@ $ /docs
 
 ### Installation
 
-Install dependencies
+#### Set environment variables
+
+Create an .env file on src folder and copy the content from .env.example. Feel free to change it according to your own configuration.
+
+#### Install dependencies
 
 ```bash
 $ pip install -r requirements.txt
 ```
+
+#### Set up database
+
 Use PostgreSQL
 
-Set up the env variables in file **.env**
-
 ```bash
-# set up database
 $ alembic upgrade head
 ```
 
@@ -86,6 +90,5 @@ $ VALUES ('other');
 ### Running the app
 
 ```bash
-# run app
 $ uvicorn src.main:app --reload
 ```
