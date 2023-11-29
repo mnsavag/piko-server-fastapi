@@ -36,7 +36,7 @@ At the moment the editor preview does not correspond to the real preview.
 ### URL address
 
 ```bash
-$ /docs
+/docs
 ```
 
 ### Preview
@@ -56,7 +56,7 @@ Create an .env file on src folder and copy the content from .env.example. Feel f
 ### Install dependencies
 
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Set up database
@@ -64,27 +64,27 @@ $ pip install -r requirements.txt
 Use PostgreSQL
 
 ```bash
-$ alembic upgrade head
+alembic upgrade head
 ```
-
+ Database initialization
+ 
 ```bash
-# database initialization
-$ INSERT INTO category(name)
-$ VALUES ('music');
-$ INSERT INTO category(name)
-$ VALUES ('cinema');
-$ INSERT INTO category(name)
-$ VALUES ('sport');
-$ INSERT INTO category(name)
-$ VALUES ('technology');
-$ INSERT INTO category(name)
-$ VALUES ('fashion');
-$ INSERT INTO category(name)
-$ VALUES ('nature');
-$ INSERT INTO category(name)
-$ VALUES ('games');
-$ INSERT INTO category(name)
-$ VALUES ('other');
+INSERT INTO category(name)
+VALUES ('music');
+INSERT INTO category(name)
+VALUES ('cinema');
+INSERT INTO category(name)
+VALUES ('sport');
+INSERT INTO category(name)
+VALUES ('technology');
+INSERT INTO category(name)
+VALUES ('fashion');
+INSERT INTO category(name)
+VALUES ('nature');
+INSERT INTO category(name)
+VALUES ('games');
+INSERT INTO category(name)
+VALUES ('other');
 ```
 
 ### Running the app
