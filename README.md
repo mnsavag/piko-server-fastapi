@@ -6,16 +6,16 @@ You can access it here http://31.129.106.57:3001/
 
 Also You can see the client implementation here https://github.com/mnsavag/piko-client-react/
 
-### Main stack
+## Main stack
 
 - Python
 - Fastapi
 - PostgreSQL
 - SQLAlchemy
   
-### Interacting with app (client)
+## Interacting with app (client)
 
-#### Home Page
+### Home Page
 
 All polls are here. You can go through them by clicking the "start" button.
 
@@ -25,41 +25,41 @@ Or see the rating by clicking the "show result" button.
 
 ![alt text](https://github.com/mnsavag/piko-server-fastapi/blob/master/site-home-page.png?raw=true)
 
-#### Create Championship Page
+### Create Championship Page
 
 Here you can create your survey. Available image formats: png/jpg/jpeg.
 
 At the moment the editor preview does not correspond to the real preview.
 ​
-### Swagger API
+## Swagger API
 
-#### URL address
+### URL address
 
 ```bash
 $ /docs
 ```
 
-#### Preview
+### Preview
 
 ![alt text](https://github.com/mnsavag/piko-server-fastapi/blob/master/api-preview.png?raw=true)
 
-### Database view
+## Database view
 
 ![alt text](https://github.com/mnsavag/piko-server-fastapi/blob/master/piko-db.png?raw=true)
 
-### Installation
+## Installation
 
-#### Set environment variables
+### Set environment variables
 
 Create an .env file on src folder and copy the content from .env.example. Feel free to change it according to your own configuration.
 
-#### Install dependencies
+### Install dependencies
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-#### Set up database
+### Set up database
 
 Use PostgreSQL
 
